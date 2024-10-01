@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss>
+    <channel>
+        <title>Notícias Recentes</title>
+        <item>
+            <title>Notícia 1</title>
+            <link>https://www.publico.pt/2024/08/09/sociedade/noticia/bastonario-quer-rever-funcionamento-equipas-urgencias-obstetricia-2100294</link>
+            <description>Descrição da notícia 1.</description>
+        </item>
+        <item>
+            <title>Notícia 2</title>
+            <link>https://www.jn.pt/7414967320/avisos-vermelho-e-laranja-so-tres-distritos-escapam-ao-fim-de-semana-escaldante/</link>
+            <description>Descrição da notícia 2.</description>
+        </item>
+        <item>
+            <title>Notícia 3</title>
+            <link>https://www.jn.pt/7284612426/espanhol-preso-por-ataque-em-castelo-de-vide-tem-cadastro-por-duplo-homicidio-e-violacao/</link>
+            <description>Descrição da notícia 3.</description>
+        </item>
+    </channel>
+</rss>

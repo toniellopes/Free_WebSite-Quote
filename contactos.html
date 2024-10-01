@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactos</title>
+    <link rel="stylesheet" href="estilo/estiloprincipal.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="portfolio.html">Portfólio</a></li>
+                <li><a href="orcamento.html">Pedido de Orçamento</a></li>
+                <li><a href="contactos.html">Contactos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="contact-container">
+            <h1>Contactos</h1>
+            <div id="map"></div>
+            <form id="contactForm">
+                <label for="nome">Nome</label>
+                <input type="text" id="nome" name="nome" required>
+
+                <label for="apelido">Apelido</label>
+                <input type="text" id="apelido" name="apelido" required>
+
+                <label for="telemovel">Telemóvel</label>
+                <input type="tel" id="telemovel" name="telemovel" required>
+
+                <label for="email">E-mail</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="data">Data</label>
+                <input type="date" id="data" name="data" required>
+
+                <label for="motivo">Motivo do Contacto</label>
+                <textarea id="motivo" name="motivo" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </main>
+    <script src="scripts/scriptcontactos.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBacgAp7Xd-_UeIIJEg_5w8OTjpaiKdHe0&callback=initMap" async defer></script>
+</body>
+</html>

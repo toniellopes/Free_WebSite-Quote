@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedido de Orçamento</title>
+    <link rel="stylesheet" href="estilo/estiloprincipal.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="portfolio.html">Portfólio</a></li>
+                <li><a href="orcamento.html">Pedido de Orçamento</a></li>
+                <li><a href="contactos.html">Contactos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="orcamento-container">
+            <h2>Dados</h2>
+            <form id="orcamentoForm">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+                
+                <label for="apelido">Apelido:</label>
+                <input type="text" id="apelido" name="apelido" required>
+                
+                <label for="telemovel">Telemóvel:</label>
+                <input type="tel" id="telemovel" name="telemovel" required>
+                
+                <h2>Pedido de orçamento</h2>
+                
+                <label for="tipoPagina">Tipo de página web:</label>
+                <select id="tipoPagina" name="tipoPagina">
+                    <option value="1000">Página Simples - €1000</option>
+                    <option value="2000">Página Completa - €2000</option>
+                    <option value="3000">Loja Online - €3000</option>
+                </select>
+                
+                <label for="prazo">Prazo em meses:</label>
+                <input type="number" id="prazo" name="prazo" min="1">
+                
+                <h3>Marque os separadores desejados</h3>
+                <label><input type="checkbox" id="quemSomos" name="separadores" value="400"> Quem somos</label>
+                <label><input type="checkbox" id="ondeEstamos" name="separadores" value="400"> Onde estamos</label>
+                <label><input type="checkbox" id="galeria" name="separadores" value="400"> Galeria de fotografias</label>
+                <label><input type="checkbox" id="ecommerce" name="separadores" value="400"> eCommerce</label>
+                <label><input type="checkbox" id="gestaoInterna" name="separadores" value="400"> Gestão interna</label>
+                <label><input type="checkbox" id="noticias" name="separadores" value="400"> Notícias</label>
+                <label><input type="checkbox" id="redesSociais" name="separadores" value="400"> Redes sociais</label>
+                
+                <h3>Orçamento estimado</h3>
+                <p>(É um valor meramente indicativo, pode sofrer alterações)</p>
+                <input type="text" id="orcamentoFinal" name="orcamentoFinal" readonly>
+                
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </main>
+    <script src="scripts/scriporcamento.js"></script>
+</body>
+</html>
